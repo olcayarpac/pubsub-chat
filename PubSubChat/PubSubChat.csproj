@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="h73.Elastic.Core" Version="1.0.2" />
+    <PackageReference Include="RedisCore" Version="0.2.16" />
+  </ItemGroup>
+
 </Project>
