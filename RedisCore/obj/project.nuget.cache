@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+uPfnE/QP2XtNqXbOppbJcft7AeDRBQQigkWvyCA+wpBNeZl8tDfiHMjM1xhkdIG7zWM6tBPtOXxfmKEmR95qw==",
+  "dgSpecHash": "+GZZxIESzol1i+TRxW9B6Q/YApsTxYCyecjqgwfgIKW+aUceK+xQ0J9JmC/jeDtW0ieI6qVwFSlFgIMQaTkZrA==",
   "success": true,
   "projectFilePath": "/Users/olcayarpac/projects/pubsub-chat/RedisCore/RedisCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/olcayarpac/.nuget/packages/pipelines.sockets.unofficial/2.2.2/pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "/Users/olcayarpac/.nuget/packages/stackexchange.redis/2.6.96/stackexchange.redis.2.6.96.nupkg.sha512",
+    "/Users/olcayarpac/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Producer", "Producer\Producer.csproj", "{5A120D95-076B-464A-8550-FFE6475E82AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCore", "RedisCore\RedisCore.csproj", "{B68CC8DC-3555-48C0-9C61-64156AF60A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubChat", "PubSubChat\PubSubChat.csproj", "{15638632-9AFC-4D3D-A9ED-D4634C84C2AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A120D95-076B-464A-8550-FFE6475E82AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A120D95-076B-464A-8550-FFE6475E82AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A120D95-076B-464A-8550-FFE6475E82AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A120D95-076B-464A-8550-FFE6475E82AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68CC8DC-3555-48C0-9C61-64156AF60A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68CC8DC-3555-48C0-9C61-64156AF60A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68CC8DC-3555-48C0-9C61-64156AF60A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68CC8DC-3555-48C0-9C61-64156AF60A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15638632-9AFC-4D3D-A9ED-D4634C84C2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15638632-9AFC-4D3D-A9ED-D4634C84C2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15638632-9AFC-4D3D-A9ED-D4634C84C2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15638632-9AFC-4D3D-A9ED-D4634C84C2AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
